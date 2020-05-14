@@ -1,0 +1,72 @@
+#details {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+#details button {
+  position: absolute;
+  left: -14px;
+  top: -12px;
+  padding: 4px 16px;
+  border-radius: 0px;
+}
+#details .triangle {
+  transform: rotate(45deg);
+  border-top: 13px solid transparent;
+  border-bottom: 2px solid transparent;
+  border-left: 13px solid;
+  position: absolute;
+  top: 3px;
+  left: -6px;
+}
+#details .buttons-div {
+  border: solid red;
+}
+#details .buttons-div .done-button {
+  border: solid;
+}
+#details h2 {
+  border-bottom: solid 0.5px rgba(245, 245, 245, 0.644);
+  margin-top: 0;
+  color: whitesmoke;
+  padding: 10px;
+  font-weight: 100;
+  width: 100%;
+}
+#details #spa-container {
+  display: flex;
+  justify-content: space-around;
+  height: 30%;
+  margin: 0 10px 0 10px;
+  background-image: linear-gradient(to right, rgba(14, 79, 95, 0.746), rgba(14, 65, 78, 0.24));
+}
+#details #spa-container .spa-item {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#details #spa-container .spa-item :first-of-type {
+  margin: auto;
+  font-size: 30px;
+}
+#details #spa-container .spa-item .icon {
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-right: solid 0.5px rgba(245, 245, 245, 0.644);
+  font-weight: 100;
+  font-size: 24px !important;
+}
+#details #spa-container .spa-item #access {
+  border-right: none;
+}
+#details #description {
+  height: auto;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 40px 10px 0 10px;
+  background-image: linear-gradient(to right, rgba(14, 79, 95, 0.746), rgba(14, 65, 78, 0.24));
+}

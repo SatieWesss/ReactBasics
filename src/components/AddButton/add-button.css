@@ -1,0 +1,75 @@
+.add-button {
+    background-color: #5cb85c !important;
+    color: white !important;
+    font-weight: 100 !important;
+    height: 30px;
+}
+
+.dialog-content {
+    height: auto;
+    width: 600px;
+    padding: 0 !important;
+    background-image: linear-gradient(to right,rgba(14, 79, 95, 0.918) , rgb(14, 65, 78)); 
+}
+
+h3 {
+    background-image: linear-gradient(to right,rgb(10, 56, 68) , rgba(22, 107, 128, 0.911));     
+    margin:0;
+    padding: 16px;
+    color: whitesmoke;
+    font-weight: 100;
+    border-radius: 8px 8px 0 0;
+}
+.form {
+    padding: 20px 30px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+.switch-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.switcher {
+    width: 40%;
+    text-align: end;
+    margin-right: 6px;
+}
+.radio-group {
+    display: flex;
+    flex-direction: row !important;
+}
+
+.textfield {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.123);
+    border-radius: 10px;
+    padding: 4px !important;
+    text-decoration: none !important;
+}
+
+.dialog-actions {
+    padding: 0 !important;
+    
+}
+.no-date {
+    display: none;
+}
+.date-picker {
+    display: block;
+}
+.create-button {
+    color: white;
+    font-weight: 300;
+    border-radius: 5px;
+    padding:10px 40px;
+    background-color: rgba(158, 202, 212, 0.178);
+}
+.create-button:hover {
+    background-color:rgba(158, 202, 212, 0.295) ;
+}
+::placeholder{
+    color: rgba(245, 245, 245, 0.945) !important;
+    font-weight: 100;
+}

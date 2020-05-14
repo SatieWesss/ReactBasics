@@ -1,0 +1,49 @@
+.contains {
+    display: flex;
+    justify-content: space-between;
+}
+.buttons {
+    display: flex;
+}
+.star-icon {
+    color: #f0fd37;
+    font-size: 18px !important;
+    margin-right: 40px;
+}
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0 4px;
+    outline: none;
+}
+i {
+    color: white;
+    padding: 6px;
+    border-radius: 4px;
+}
+.markButtonNone {
+    display: none;
+}
+.pending-button {
+    margin-left: 5px;
+    background-color: #00b9f1;
+    color: white;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.success-button {
+    margin-left: 5px;
+    background-color: #3fff2e88;
+    color: white;
+    border-radius: 5px;
+    padding: 4px;
+}
+.ongoing-button {
+    margin-left: 5px;
+    background-color: #f1c500;
+    color: white;
+    border-radius: 5px;
+    padding: 4px;
+}
